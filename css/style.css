@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 5%;
+  background-color: #e8e8e8;
+}
+
+/* Header */
+
+header {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  gap: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul li {
+  font-weight: bold;
+  list-style: none;
+}
+
+header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 7px 15px;
+}
+
+/* Header End */
+
+/* Section */
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 65%;
+}
+
+.main_child_top {
+  margin: 30px 0;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top_right p {
+  padding: 20px 0;
+}
+
+.main_child_top_two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top_two_child {
+  margin-bottom: 30px;
+}
+
+.main_child_top_two img {
+  width: 400px;
+}
+
+aside {
+  margin: 30px 0;
+  width: 30%;
+}
+
+.aside_child {
+  margin-top: 20px;
+}
+
+.aside_child p {
+  padding: 15px 0;
+}
+
+.aside_child h4 {
+  padding-bottom: 15px;
+}
